@@ -1,0 +1,514 @@
+
+
+.navbar1{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.3s ease;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroll-up-btn{
+    position: fixed;
+    height: 30px;
+    width: 29px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
+
+
+
+
+
+h1{
+    color: rgb(92, 89, 89);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400px;
+     text-align: center;
+    }
+   .contact h6{
+        color: rgb(176, 179, 180);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400px;
+         text-align: center;
+         font-size: 30px;
+         margin: 3%;
+         padding-top: 2%;
+        }
+
+
+h3{
+    font-size: 20px;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    color:rgb(246, 248, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.max{
+    top: 45%;
+    position: absolute;
+    left: 30%;
+}
+.home{
+    display: flex;
+    background: url("css/6.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+ 
+    
+}
+.about .card0{
+display: flex;
+}
+.services .card0{
+    display: flex;
+    
+    margin: 3%;
+    
+}
+
+.services .card1{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+    height: 100px; 
+    width:auto; 
+    
+}
+.services .card2{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+  
+}
+
+.services .card3{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+   
+}
+.services .card4{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+ 
+}
+
+
+.about .card1{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+    
+}
+.about .card2{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+  
+}
+
+.about .card3{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+    outline: none;
+    border: none;
+    text-decoration: none;
+   
+}
+.about .card4{
+    margin: 3%;
+    box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+ 
+}
+
+.about h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:10px  18px 16px -6px rgb(12, 11, 11); ;
+    color: darkolivegreen;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 30px;
+   
+
+}
+
+
+
+
+.contact .max-width{
+    background: #222;
+}
+
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: center;
+   
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    margin: 2%;
+}
+
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: crimson;
+    margin: 2%;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: rgb(241, 239, 239);
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 05px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .email{
+    margin-left: 10px;  
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(248, 10, 10);
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .max-width {
+    background-color: #24262b;
+    color: rgb(245, 238, 238);
+   
+}
+
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid crimson;
+    background: crimson;
+    color: rgb(241, 236, 236);
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+    color: crimson;
+    background: none;
+}
+
+
+
+footer .foo{
+   
+    padding: 15px 23px;
+    color: rgb(253, 251, 251);
+    text-align: center;
+}
+footer .foo  span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer .foo span a:hover{
+    text-decoration: underline;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width:762px){
+    .home{
+      width: auto;
+        
+    }
+    .about .card0{
+        display: block;
+        margin: 3%;
+        
+        }
+        .about .card1{
+            margin: 12%;
+            margin-top: 2%;
+            box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+
+            width: 38vh;
+            
+        }
+
+        .about .card1 .btn{
+           background: rgb(228, 5, 5);
+           color: #fff;
+           box-shadow: 0  10px 10px -6px rgb(117, 113, 113);
+           border: none;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+        }
+        .about .card2 .btn{
+            background: rgb(228, 5, 5);
+            color: #fff;
+            box-shadow: 0  10px 10px -6px rgb(117, 113, 113);
+            border: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+         }
+         .about .card3 .btn{
+            background: rgb(228, 5, 5);
+            color: #fff;
+            box-shadow: 0  10px 10px -6px rgb(117, 113, 113);
+            border: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+         }
+         .about .card4 .btn{
+            background: rgb(228, 5, 5);
+            color: #fff;
+            box-shadow: 0  10px 10px -6px rgb(117, 113, 113);
+            border: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+         }
+         .about .card5 .btn{
+            background: rgb(228, 5, 5);
+            color: #fff;
+            box-shadow: 0  10px 10px -6px rgb(117, 113, 113);
+            border: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+         }
+        .about .card2{
+            margin: 12%;
+            margin-top: 2%;
+            width: 38vh;
+            
+        }
+        
+        .about .card3{
+            margin: 12%;
+            margin-top: 2%;
+            width: 38vh;
+            
+        }
+        .about .card4{
+            margin: 12%;
+            margin-top: 2%;
+            width: 38vh;
+            
+        }
+       .text h3{
+           
+            top: 35%;
+            right: 2%;
+         
+        }
+        .services .card0{
+            display: block;
+
+            margin: 3%;
+            
+        }
+        
+        .services .card1{
+            margin: 12%;
+            margin-top: 2%;
+            box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+
+            width: 38vh;
+            
+           
+        }
+        .services .card2{
+            margin: 12%;
+            margin-top: 2%;
+            box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+
+            width: 38vh;
+            
+          
+        }
+        
+        .services .card3{
+            margin: 12%;
+            margin-top: 2%;
+            box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+
+            width: 38vh;
+            
+           
+        }
+        .services .card4{
+            margin: 12%;
+            margin-top: 2%;
+            box-shadow: 0  18px 16px -6px rgb(12, 11, 11);
+
+            width: 38vh;
+            
+         
+        }
+    }
+        @media(max-width: 767px){
+            .footer-col{
+              width: 50%;
+              margin-bottom: 30px;
+          }
+          }
+          @media(max-width: 574px){
+            .footer-col{
+              width: 100%;
+          }
+          }
+          
+          
+        
